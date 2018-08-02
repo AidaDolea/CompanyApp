@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorLabel"
     tools:context=".EmployeeActivity">
     <ListView
         android:id="@+id/list"
@@ -21,7 +22,7 @@
             android:layout_height="150dp"
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="124dp"
+            android:layout_marginTop="54dp"
             android:contentDescription="@string/empty_database_image"
             app:srcCompat="@android:drawable/ic_menu_save" />
         <TextView
@@ -46,23 +47,15 @@
             android:textAppearance="?android:textAppearanceSmall"
             android:textColor="#A2AAB0" />
 
-        <android.support.design.widget.FloatingActionButton
-            android:id="@+id/fab"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentEnd="true"
-            android:layout_below="@+id/empty_subtitle_text"
-            android:layout_marginEnd="58dp"
-            android:layout_marginTop="34dp"
-            android:tint="@android:color/holo_blue_light"
-            app:backgroundTint="@color/edit_background"
-            app:srcCompat="@android:drawable/ic_input_add" />
-
     </RelativeLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="450dp"
+        android:tint="@color/colorPrimaryDark"
+        app:backgroundTint="@color/colorPrimary"
+        app:srcCompat="@android:drawable/ic_input_add" />
 </RelativeLayout>
-
-
-
-
-
-
