@@ -33,6 +33,7 @@
             android:layout_centerHorizontal="true"
             android:fontFamily="sans-serif-medium"
             android:paddingTop="16dp"
+            android:textColor="@color/colorLabel"
             android:text="@string/the_database_is_empty"
             android:textAppearance="?android:textAppearanceMedium" />
         <TextView
